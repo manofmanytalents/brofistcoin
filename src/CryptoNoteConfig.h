@@ -62,7 +62,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "brofistcoin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001dc85f7a9df6e029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121015358b1066cc85cbe151b4faf1fb7865d782a1be060c5c01468b8a5b41323d9ca";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
@@ -92,7 +92,7 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
 const std::initializer_list<const char*> SEED_NODES = {
   "37.187.110.214:13899",
-  "209.250.244.206:13899",
+  "209.250.245.204:13899",
 };
 
 struct CheckpointData {
